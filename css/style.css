@@ -1,10 +1,21 @@
+nav{
+	text-align: right;
+}
+
+nav a{
+	font-size: 16px;
+	padding: 20px;
+}
+
+
 .header{
 	min-height: 20px;
-	background: darkblue;
+	background: #1abc9c;
 	color: white;
 	text-align: center;
 	font-size: 50px;
 	margin-top: 0px;
+	padding: 50px;
 }
 
 .container{
@@ -17,6 +28,11 @@
 	width: 60%;
 	background-color: black;
 }
+img{
+	width: 300px;
+min-height: 200px;
+}
+
 .blog{
 	float: right;
 	width: 40%;
@@ -28,6 +44,9 @@ h1{
 	text-align: center;
 }
 
+a{
+	font-size: 40px;
+}
 
 
 h2{
@@ -39,6 +58,7 @@ h2{
 p{
 	text-align: center;
 	font-size: 20px;
+	color: white;
 }
 
 th{
@@ -50,21 +70,32 @@ h3{
 	font-size: 30px;
 	text-align: center;
 }
+h4{
+	color: lightcyan;
+	text-align: center;
+	font-size: 50px;
+}
 
 .red{
 	float: left;
-	min-height: 200px;
+	min-height: 315px;
 	width: 40%;
 	background-color: black;
 }
 .black{
 	float: right;
 	width: 60%;
-	min-height: 200px;
+	min-height: 315px;
 	background-color: red;
 
 }
-
+.papa-song{
+	display: block;
+}
+iframe{
+	width: 500px;
+	height: 300px;
+}
 
 .footer{
 	min-height: 100px;
