@@ -1,0 +1,72 @@
+.header{
+	min-height: 20px;
+	background: darkblue;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 0px;
+}
+
+.container{
+	overflow: hidden;
+
+}
+.contact{
+	float: left;
+	min-height: 200px;
+	width: 60%;
+	background-color: black;
+}
+.blog{
+	float: right;
+	width: 40%;
+	min-height: 200px;
+	background-color: red;
+
+}
+h1{
+	text-align: center;
+}
+
+
+
+h2{
+	color: darkblue;
+	text-align: center;
+	font-size: 50px;
+}
+
+p{
+	text-align: center;
+	font-size: 20px;
+}
+
+th{
+	text-align: left;
+	background: lightgray;
+}
+
+h3{
+	font-size: 30px;
+	text-align: center;
+}
+
+.red{
+	float: left;
+	min-height: 200px;
+	width: 40%;
+	background-color: black;
+}
+.black{
+	float: right;
+	width: 60%;
+	min-height: 200px;
+	background-color: red;
+
+}
+
+
+.footer{
+	min-height: 100px;
+	background-color: darkblue;
+}
